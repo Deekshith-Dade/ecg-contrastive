@@ -56,7 +56,7 @@ model = create_model(args, baseline=False, finetune=False)
 ### 3. Finetune Mode (Pretrained, All Parameters Trainable)
 ```python
 model = create_model(args, baseline=False, finetune=True)
-# Loads pretrained weights; all layers except the final layer are trainable
+# Loads pretrained weights; all layers are trainable
 ```
 
 ### Example Inference
